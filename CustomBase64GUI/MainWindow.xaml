@@ -32,14 +32,14 @@
         <Image Source="/Images/tube.png" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Stretch="None" VerticalAlignment="Top" />
 
         <TextBlock Grid.Row="1" Grid.Column="0" Margin="4" Grid.ColumnSpan="2" TextWrapping="Wrap">
-                <Span Foreground="DodgerBlue">&#x25A0;</Span> Text
+                Text
         </TextBlock>
 
         <TextBox x:Name="TextBoxEncodedDecodedText" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" VerticalScrollBarVisibility="Visible" TextWrapping="Wrap" AcceptsReturn="True" VerticalContentAlignment="Top" MinLines="5"></TextBox>
 
         <Button x:Name="ButtonDecodeText" Grid.Row="3" Grid.Column="0" Margin="4" Click="ButtonEncodeDecodeText_Click">Base64 Decode</Button>
 
-        <TextBlock Grid.Row="4" Grid.Column="0" Margin="4"><Span Foreground="DodgerBlue">&#x25A0;</Span> Character set (alphabet)</TextBlock>
+        <TextBlock Grid.Row="4" Grid.Column="0" Margin="4">Character set (alphabet)</TextBlock>
         
         <RadioButton x:Name="RadioButtonDefaultAlphabet" Grid.Row="5" Grid.Column="0" GroupName="alphabetRadioBtn" IsChecked="True">
             Default
@@ -59,7 +59,7 @@
 
         <Button x:Name="ButtonEncodeText" Grid.Row="3" Grid.Column="1" Click="ButtonEncodeDecodeText_Click">Base64 Encode</Button>
 
-        <TextBlock Grid.Row="4" Grid.Column="1" Margin="4"><Span Foreground="DodgerBlue">&#x25A0;</Span> Base64 encode/decode files</TextBlock>
+        <TextBlock Grid.Row="4" Grid.Column="1" Margin="4">Base64 encode/decode files</TextBlock>
 
         <TextBlock Grid.Row="5" Grid.Column="1" Margin="4">&#x1F4C4; Encode file with Base64</TextBlock>
 
